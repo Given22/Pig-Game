@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  background-size: cover;
+  background: -webkit-gradient(linear, right bottom, left top, from(#753682), to(#bf2e34)) no-repeat;
+  background: linear-gradient(to top left, #753682 0%, #bf2e34 100%) no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box {
+  height: 70vh;
+  width: 70vw;
+  background-color: #c9c9c956;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.452);
+          box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.452);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.players {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.player {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.player .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.player p {
+  font-size: 4em;
+  color: #bf2e34;
+}
+
+.player .current {
+  background-color: #bf2e34;
+  width: 50%;
+  height: 20%;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.player .current p {
+  font-size: 1em;
+  color: #e0e0e0;
+}
+
+.player .current p:last-child {
+  font-size: 1.5em;
+  color: #e0e0e0;
+}
+
+.Cplayer {
+  background-color: rgba(255, 255, 255, 0.493);
+}
+
+.menu {
+  position: absolute;
+  width: 70vw;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  height: 13vh;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.226);
+          box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.226);
+}
+
+.btn {
+  width: 10em;
+  height: 3em;
+  border-radius: 100px;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.226);
+          box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.226);
+  border: none;
+  font-weight: 400px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.btn:hover {
+  background-color: rgba(233, 233, 233, 0.897);
+}
+
+.hidden {
+  display: none;
+}
+
+.page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.close-page {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+/*# sourceMappingURL=styles.css.map */

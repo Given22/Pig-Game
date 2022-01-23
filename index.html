@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='styles.css' rel='stylesheet' />
+    <title>Pig Game</title>
+</head>
+<body>
+    <section class="box">
+        <div class="players">
+            <div class="player One">
+                <div class="info">
+                    <h1>PLAYER 1</h1>
+                    <p class="score_One">0</p>
+                </div>
+                <div class="current">
+                    <p>CURRENT</p>
+                    <p class='current_One'>0</p>
+                </div>
+            </div>
+            <div class="player Two Cplayer">
+                <div class="info">
+                    <h1>PLAYER 2</h1>
+                    <p class="score_Two">0</p>
+                </div>
+                <div class="current">
+                    <p>CURRENT</p>
+                    <p class='current_Two'>0</p>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <button class="menu_btnNewGame btn"><b>NEW GAME</b></button>
+            <div class="dice">
+                <img src="dice-1.png" class="diceCube"/>
+            </div>
+            <button class="menu_btnRoll btn"><b>ROLL DICE</b></button>
+            <button class="menu_btnHold btn"><b>HOLD</b></button>
+        </div>
+    </section>
+    <section class="winnerTable">
+        <div class="page hidden">
+            <button class="close-page">&times;</button>
+            <h1 class='p-page'></>
+        </div>
+        <div class="overlay hidden"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

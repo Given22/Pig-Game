@@ -1,12 +1,12 @@
 'use strict'
 
 const cube = {
-    1: '/image/dice-1.png',
-    2: '/image/dice-2.png',
-    3: '/image/dice-3.png',
-    4: '/image/dice-4.png',
-    5: '/image/dice-5.png',
-    6: '/image/dice-6.png'
+    1: '/image/dice-1.PNG',
+    2: '/image/dice-2.PNG',
+    3: '/image/dice-3.PNG',
+    4: '/image/dice-4.PNG',
+    5: '/image/dice-5.PNG',
+    6: '/image/dice-6.PNG'
 }
 
 const playerOne = document.querySelector('.One')
@@ -56,7 +56,7 @@ function reset() {
     scoreOne = 0
     scoreTwoElement.textContent = scoreTwo
     scoreOneElement.textContent = scoreOne
-    dice.src = '/image/dice-0.png'
+    dice.src = '/image/dice-0.PNG'
 }
 
 const hidden = (player) => {
@@ -98,7 +98,7 @@ document.querySelector('.menu_btnHold').addEventListener('click', ()=> {
         }
     }
     changePlayer(whichPlayer)
-    dice.src = '/image/dice-0.png'
+    dice.src = '/image/dice-0.PNG'
     resetCurrent()
 })
 
